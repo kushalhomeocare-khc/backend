@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A-Z Conditions | Kushal Online</title>
+
+<!-- All styling lives in style.css — no embedded CSS, no inline styles. -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="margin:0;">
+
+<!--
+  This markup is intentionally minimal: header, search, alphabet
+  navigation shell, and an empty glossary container. Every letter card
+  and every accordion item is generated at runtime by glossary.js from
+  diseases.json — there is no disease content hardcoded here.
+-->
+
+<div class="az-section" id="top">
+  <div class="wrap">
+
+    <!-- Intro / hint text -->
+    <p class="intro-text">Search for your condition using the search box below, or browse the conditions using the alphabetical buttons.</p>
+
+    <!-- Search -->
+    <div class="search-glass glass-block">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search conditions..."
+        aria-label="Search conditions"
+        autocomplete="off">
+      <button class="clear-btn" id="clearBtn" type="button" aria-label="Clear search">✕</button>
+    </div>
+
+    <!-- A-Z navigation (buttons are generated into #azGrid by glossary.js) -->
+    <div class="az-block glass-block" id="azBlock">
+      <div class="az-grid-wrap" id="azGridWrap">
+        <div class="az-grid" id="azGrid" role="group" aria-label="Browse by letter"></div>
+      </div>
+      <button class="az-toggle" id="azToggle" type="button" aria-expanded="true" aria-label="Collapse alphabet list">
+        <span id="azToggleLabel">Collapse</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Search "no results" message (text set by glossary.js CONFIG) -->
+    <p class="no-results" id="noResults" role="status">No conditions match your search.</p>
+
+    <!-- Glossary container — letter cards + accordions are generated here -->
+    <div id="glossary" class="card-stage"></div>
+
+  </div>
+</div>
+
+<!-- Vanilla JS only. No frameworks, no build step. -->
+<script src="glossary.js"></script>
+</body>
+</html>

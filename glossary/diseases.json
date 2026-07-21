@@ -1,0 +1,836 @@
+[
+  {
+    "letter": "A",
+    "name": "Acidity",
+    "description": "A burning sensation in the stomach or chest due to excess gastric acid.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Acne (Pimples)",
+    "description": "Inflammatory skin condition caused by clogged pores, leading to pimples and eruptions.",
+    "url": "https://kushalonline.com/skin-%26-hair#cbe317b6-79dd-4b6b-8bbd-9dbaed55e45d"
+  },
+  {
+    "letter": "A",
+    "name": "Adenoids",
+    "description": "Enlarged lymph tissue causing nasal blockage and mouth breathing, especially in children.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "ADHD (Attention Deficit Hyperactivity Disorder)",
+    "description": "A neurodevelopmental disorder causing inattention, hyperactivity, and impulsive behavior.",
+    "url": "https://kushalonline.com/adhd-treatment"
+  },
+  {
+    "letter": "A",
+    "name": "Allergic Rhinitis",
+    "description": "An allergic condition causing sneezing, runny nose, and nasal irritation.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Alopecia",
+    "description": "Hair loss from the scalp or body due to various underlying causes.",
+    "url": "https://kushalonline.com/skin-%26-hair#75323daf-79e3-4ada-a03c-30b9d3e4af71"
+  },
+  {
+    "letter": "A",
+    "name": "Amoebiasis",
+    "description": "An intestinal infection causing diarrhea, abdominal pain, and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Anal Fissure",
+    "description": "A small tear in the anal lining causing pain and bleeding during bowel movements.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Anal Fistula",
+    "description": "An abnormal tunnel near the anus causing discharge and recurrent infection.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Anal Warts",
+    "description": "Viral growths around the anal area caused by HPV infection.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Ankylosing Spondylitis",
+    "description": "A chronic inflammatory condition of the spine causing stiffness and reduced mobility.",
+    "url": "https://kushalonline.com/ankylosing-spondylitis"
+  },
+  {
+    "letter": "A",
+    "name": "Anxiety",
+    "description": "A mental health condition marked by excessive worry, fear, and nervousness.",
+    "url": "https://kushalonline.com/anxiety-treatment"
+  },
+  {
+    "letter": "A",
+    "name": "Arthritis",
+    "description": "Inflammation of joints causing pain, swelling, and stiffness.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Asthma",
+    "description": "A chronic respiratory condition causing breathing difficulty, wheezing, and coughing.",
+    "url": ""
+  },
+  {
+    "letter": "A",
+    "name": "Autism (Autism Spectrum Disorder)",
+    "description": "A developmental disorder affecting communication, behaviour, and social interaction.",
+    "url": "https://kushalonline.com/autism-treatment"
+  },
+  {
+    "letter": "B",
+    "name": "Baldness",
+    "description": "Loss of hair from the scalp, often due to genetic or hormonal factors.",
+    "url": "https://kushalonline.com/skin-%26-hair#75323daf-79e3-4ada-a03c-30b9d3e4af71"
+  },
+  {
+    "letter": "B",
+    "name": "Bed Wetting (Nocturnal Enuresis)",
+    "description": "Involuntary urination during sleep, commonly seen in children.",
+    "url": ""
+  },
+  {
+    "letter": "B",
+    "name": "Bursitis",
+    "description": "Inflammation of fluid-filled sacs (bursae) around joints causing pain and swelling.",
+    "url": ""
+  },
+  {
+    "letter": "B",
+    "name": "BPH (Benign Prostatic Hyperplasia)",
+    "description": "Non-cancerous enlargement of the prostate causing urinary difficulty in men.",
+    "url": ""
+  },
+  {
+    "letter": "B",
+    "name": "Bronchitis",
+    "description": "Inflammation of the airways causing persistent cough, mucus, and breathing discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Cervical Spondylitis",
+    "description": "Degenerative changes in the neck causing pain, stiffness, and reduced movement.",
+    "url": "https://kushalonline.com/diseas-cervical-spondylos"
+  },
+  {
+    "letter": "C",
+    "name": "Chalazion",
+    "description": "A painless, localized swelling on the eyelid due to blocked oil glands.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Chickenpox",
+    "description": "A contagious viral infection causing itchy fluid-filled blisters and fever.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Cholecystitis",
+    "description": "Inflammation of the gallbladder causing abdominal pain, nausea, and fever.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Cholelithiasis",
+    "description": "Formation of stones in the gallbladder, which may cause pain or remain silent.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Cold (Common Cold)",
+    "description": "A viral infection causing runny nose, sneezing, and mild throat irritation.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Colitis",
+    "description": "Inflammation of the colon causing diarrhea, abdominal pain, and discomfort.",
+    "url": "https://kushalonline.com/ibs-%26-colitis"
+  },
+  {
+    "letter": "C",
+    "name": "Constipation",
+    "description": "Difficulty in passing stool, often with hard or infrequent bowel movements.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Corn",
+    "description": "A thickened area of skin caused by repeated pressure or friction.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Cough",
+    "description": "A protective reflex to clear the airways of irritation or mucus.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "CSOM (Chronic Suppurative Otitis Media)",
+    "description": "A long-standing ear infection with persistent discharge and possible hearing loss.",
+    "url": ""
+  },
+  {
+    "letter": "C",
+    "name": "Cystitis",
+    "description": "Inflammation of the bladder causing burning urination, urgency, and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "D",
+    "name": "Dandruff",
+    "description": "A scalp condition causing white flakes and itching due to excessive shedding of skin.",
+    "url": "https://kushalonline.com/skin-%26-hair#dc601e18-a9a0-4bc2-840f-b7bfbef568fd"
+  },
+  {
+    "letter": "D",
+    "name": "Depression",
+    "description": "A mental health disorder causing persistent low mood, loss of interest, and reduced energy.",
+    "url": ""
+  },
+  {
+    "letter": "D",
+    "name": "Diabetes Mellitus",
+    "description": "A metabolic disorder with high blood sugar due to impaired insulin function.",
+    "url": ""
+  },
+  {
+    "letter": "D",
+    "name": "DUB (Dysfunctional Uterine Bleeding)",
+    "description": "Abnormal uterine bleeding not related to pregnancy or identifiable pathology.",
+    "url": ""
+  },
+  {
+    "letter": "D",
+    "name": "Duodenal Ulcer",
+    "description": "A sore in the upper part of the intestine causing burning abdominal pain.",
+    "url": ""
+  },
+  {
+    "letter": "E",
+    "name": "Elephantiasis",
+    "description": "Severe swelling of body parts due to lymphatic obstruction, often caused by infection.",
+    "url": ""
+  },
+  {
+    "letter": "E",
+    "name": "Eczema",
+    "description": "A chronic skin condition causing itching, redness, and dry, inflamed skin.",
+    "url": "https://kushalonline.com/skin-%26-hair#105a2f42-6d3b-47f3-bdff-b5711dc9461a"
+  },
+  {
+    "letter": "E",
+    "name": "Endometriosis",
+    "description": "A condition where tissue similar to the uterine lining grows outside the uterus, causing pain and irregular periods.",
+    "url": ""
+  },
+  {
+    "letter": "E",
+    "name": "Epilepsy",
+    "description": "A neurological disorder characterized by recurrent seizures.",
+    "url": ""
+  },
+  {
+    "letter": "E",
+    "name": "Erectile Dysfunction",
+    "description": "Inability to achieve or maintain an erection sufficient for sexual activity.",
+    "url": "https://kushalonline.com/erectile-dysfunction"
+  },
+  {
+    "letter": "F",
+    "name": "Fatty Liver",
+    "description": "Excess fat accumulation in the liver affecting its normal function.",
+    "url": "https://kushalonline.com/digestive-%26-liver#ff77109e-154e-45a8-976f-8a51a74ae37a"
+  },
+  {
+    "letter": "F",
+    "name": "Fibroadenoma",
+    "description": "A benign breast lump commonly seen in young women.",
+    "url": ""
+  },
+  {
+    "letter": "F",
+    "name": "Fibroid Uterus",
+    "description": "Non-cancerous growths in the uterus causing heavy bleeding and pelvic discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "F",
+    "name": "Fibromyalgia",
+    "description": "A chronic condition causing widespread body pain, fatigue, and tender points.",
+    "url": ""
+  },
+  {
+    "letter": "F",
+    "name": "Fissure-in-Ano",
+    "description": "A painful crack in the anal region causing bleeding during bowel movements.",
+    "url": ""
+  },
+  {
+    "letter": "F",
+    "name": "Fistula-in-Ano",
+    "description": "An abnormal tract near the anus causing discharge and recurrent infection.",
+    "url": "https://kushalonline.com/piles-%26-fistula#0e126f54-328a-4f0a-9016-dfb355e3ecf9"
+  },
+  {
+    "letter": "F",
+    "name": "Frequent Colds",
+    "description": "Repeated episodes of common cold due to lowered immunity or exposure to infections.",
+    "url": ""
+  },
+  {
+    "letter": "F",
+    "name": "Fungal Infections",
+    "description": "Skin infections caused by fungi leading to itching, redness, and irritation.",
+    "url": "https://kushalonline.com/skin-%26-hair#6acf8fc5-6e00-45e8-a18c-21f6a8803f8c"
+  },
+  {
+    "letter": "F",
+    "name": "Fungal Nail Infection",
+    "description": "A fungal infection causing thickened, discolored, and brittle nails.",
+    "url": "https://kushalonline.com/skin-%26-hair#ba402355-06e1-4e8a-a426-3beae7f452e4"
+  },
+  {
+    "letter": "G",
+    "name": "Gall Bladder Stones",
+    "description": "Hard deposits formed in the gallbladder, often causing abdominal pain and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Ganglion",
+    "description": "A fluid-filled swelling near joints or tendons, commonly seen on the wrist.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Gastric Ulcer",
+    "description": "A sore in the stomach lining causing burning pain and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Gastritis",
+    "description": "Inflammation of the stomach lining causing pain, acidity, and nausea.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Genital Warts",
+    "description": "Viral growths in the genital area caused by HPV infection.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Glomerulonephritis",
+    "description": "Inflammation of the kidney's filtering units causing swelling, urine changes, and hypertension.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Golfer's Elbow",
+    "description": "Pain and inflammation on the inner side of the elbow due to overuse.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Gout",
+    "description": "A form of arthritis caused by uric acid crystal deposition, leading to severe joint pain.",
+    "url": ""
+  },
+  {
+    "letter": "G",
+    "name": "Gynecomastia",
+    "description": "Enlargement of male breast tissue due to hormonal imbalance.",
+    "url": ""
+  },
+  {
+    "letter": "H",
+    "name": "Hair Loss (Hair Fall)",
+    "description": "Excessive shedding or thinning of hair leading to reduced density or bald patches.",
+    "url": "https://kushalonline.com/hair-loss-treatment"
+  },
+  {
+    "letter": "H",
+    "name": "Headache (Migraine)",
+    "description": "A severe, recurring headache often accompanied by nausea and sensitivity to light.",
+    "url": "https://kushalonline.com/migraine-treatment"
+  },
+  {
+    "letter": "H",
+    "name": "Haemorrhoids (Piles)",
+    "description": "Swollen veins in the anal region causing pain, itching, and bleeding.",
+    "url": "https://kushalonline.com/piles-%26-fistula"
+  },
+  {
+    "letter": "H",
+    "name": "Hemiplegia",
+    "description": "Paralysis of one side of the body, usually due to brain injury or stroke.",
+    "url": ""
+  },
+  {
+    "letter": "H",
+    "name": "Herpes Simplex",
+    "description": "A viral infection causing painful blisters on the skin or mucous membranes.",
+    "url": ""
+  },
+  {
+    "letter": "H",
+    "name": "Herpes Zoster",
+    "description": "A viral infection causing a painful rash along the course of a nerve.",
+    "url": ""
+  },
+  {
+    "letter": "H",
+    "name": "High BP (Hypertension)",
+    "description": "A condition of persistently elevated blood pressure increasing health risks.",
+    "url": ""
+  },
+  {
+    "letter": "H",
+    "name": "Hyperthyroidism",
+    "description": "An overactive thyroid gland producing excess hormones, causing weight loss and restlessness.",
+    "url": "https://kushalonline.com/thyroid-treatment#1fc6f772-a667-4b3f-ad38-0182a1865f9f"
+  },
+  {
+    "letter": "H",
+    "name": "Hypothyroidism",
+    "description": "An underactive thyroid gland leading to fatigue, weight gain, and slow metabolism.",
+    "url": "https://kushalonline.com/thyroid-treatment#8bb4f61e-0342-4bb4-969c-321f213488b1"
+  },
+  {
+    "letter": "I",
+    "name": "IBS (Irritable Bowel Syndrome)",
+    "description": "A functional bowel disorder causing irregular bowel habits with abdominal discomfort and bloating.",
+    "url": "https://kushalonline.com/ibs-%26-colitis"
+  },
+  {
+    "letter": "I",
+    "name": "Ichthyosis",
+    "description": "A skin condition causing dry, thickened, scaly skin due to abnormal shedding.",
+    "url": ""
+  },
+  {
+    "letter": "I",
+    "name": "Impotence",
+    "description": "Inability to achieve or maintain an erection sufficient for sexual activity.",
+    "url": ""
+  },
+  {
+    "letter": "I",
+    "name": "Infertility",
+    "description": "Difficulty in conceiving despite regular unprotected intercourse.",
+    "url": "https://kushalonline.com/infertility-treatment"
+  },
+  {
+    "letter": "I",
+    "name": "Insomnia",
+    "description": "A sleep disorder characterized by difficulty in falling or staying asleep.",
+    "url": ""
+  },
+  {
+    "letter": "J",
+    "name": "Jaundice",
+    "description": "Yellowing of the skin and eyes due to increased bilirubin levels in the blood.",
+    "url": ""
+  },
+  {
+    "letter": "J",
+    "name": "Joint Pain",
+    "description": "Discomfort or pain in the joints due to inflammation, injury, or degeneration.",
+    "url": ""
+  },
+  {
+    "letter": "J",
+    "name": "Juvenile Arthritis",
+    "description": "A type of arthritis in children causing joint pain, swelling, and stiffness.",
+    "url": ""
+  },
+  {
+    "letter": "K",
+    "name": "Keloid",
+    "description": "Thick, raised scar tissue that grows beyond the original wound.",
+    "url": ""
+  },
+  {
+    "letter": "K",
+    "name": "Kidney Stones",
+    "description": "Hard deposits in kidneys causing pain and urinary discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "L",
+    "name": "Laryngitis",
+    "description": "Inflammation of the voice box causing hoarseness and voice loss.",
+    "url": ""
+  },
+  {
+    "letter": "L",
+    "name": "Leucoderma (Vitiligo)",
+    "description": "Loss of skin pigment leading to white patches on the skin.",
+    "url": "https://kushalonline.com/vitiligo-treatment"
+  },
+  {
+    "letter": "L",
+    "name": "Lichen Planus",
+    "description": "An inflammatory skin condition causing itchy, purplish lesions.",
+    "url": "https://kushalonline.com/skin-%26-hair#3b570cd6-7570-4190-8acd-e81d87948328"
+  },
+  {
+    "letter": "L",
+    "name": "Lichen Planus Pigmentosa",
+    "description": "A variant of lichen planus causing dark brown to grayish skin pigmentation.",
+    "url": ""
+  },
+  {
+    "letter": "L",
+    "name": "Ligament Injury",
+    "description": "Damage to a ligament causing pain, swelling, and joint instability.",
+    "url": ""
+  },
+  {
+    "letter": "L",
+    "name": "Low BP (Hypotension)",
+    "description": "Reduced blood pressure causing dizziness, weakness, and fainting.",
+    "url": ""
+  },
+  {
+    "letter": "L",
+    "name": "Lumbar Spondylitis",
+    "description": "Degenerative changes in the lower spine causing back pain and stiffness.",
+    "url": ""
+  },
+  {
+    "letter": "L",
+    "name": "Loss of Libido",
+    "description": "Reduced sexual desire due to physical, hormonal, or psychological factors.",
+    "url": ""
+  },
+  {
+    "letter": "M",
+    "name": "Measles",
+    "description": "A highly contagious viral infection causing fever, cough, and a characteristic skin rash.",
+    "url": ""
+  },
+  {
+    "letter": "M",
+    "name": "Menopausal Syndrome",
+    "description": "A group of symptoms like hot flashes and mood changes due to hormonal decline in menopause.",
+    "url": ""
+  },
+  {
+    "letter": "M",
+    "name": "Menstrual Disorders",
+    "description": "Irregular, painful, or heavy menstrual cycles affecting normal reproductive health.",
+    "url": ""
+  },
+  {
+    "letter": "M",
+    "name": "Migraine",
+    "description": "A severe, throbbing headache often on one side, sometimes with nausea and light sensitivity.",
+    "url": "https://kushalonline.com/migraine-treatment"
+  },
+  {
+    "letter": "M",
+    "name": "Muscle Sprain",
+    "description": "Overstretching or injury to muscles causing pain and limited movement.",
+    "url": ""
+  },
+  {
+    "letter": "M",
+    "name": "Muscular Dystrophy",
+    "description": "A group of genetic disorders causing progressive muscle weakness and degeneration.",
+    "url": ""
+  },
+  {
+    "letter": "M",
+    "name": "Myoma of Uterus",
+    "description": "A benign tumor of the uterus, also known as uterine fibroid.",
+    "url": ""
+  },
+  {
+    "letter": "N",
+    "name": "Nasal Polyps",
+    "description": "Soft, non-cancerous growths in the nasal passages causing blockage and breathing difficulty.",
+    "url": ""
+  },
+  {
+    "letter": "N",
+    "name": "Nephrotic Syndrome",
+    "description": "A kidney condition causing excessive protein loss in urine, leading to swelling and weakness.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Obesity",
+    "description": "Excess body fat accumulation that increases the risk of health problems like diabetes, heart disease, and joint issues.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Obsessive Compulsive Disorder (OCD)",
+    "description": "A mental health condition marked by unwanted repetitive thoughts (obsessions) and behaviors (compulsions).",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Oppositional Defiant Disorder (ODD)",
+    "description": "A behavioral disorder in children involving persistent defiance, irritability, and disobedience toward authority figures.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Oral Herpes",
+    "description": "A viral infection causing painful blisters or sores around the lips and mouth, commonly known as cold sores.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Osteoarthritis",
+    "description": "A degenerative joint disease where cartilage wears down, leading to pain, stiffness, and reduced movement.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Osteomyelitis",
+    "description": "An infection of the bone causing pain, swelling, and sometimes fever.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Osteoporosis",
+    "description": "A condition where bones become weak and brittle, increasing the risk of fractures.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Otitis Externa",
+    "description": "An infection of the outer ear canal causing pain, itching, and irritation.",
+    "url": ""
+  },
+  {
+    "letter": "O",
+    "name": "Ovarian Cyst",
+    "description": "A fluid-filled sac in or on the ovary, often harmless but sometimes causing pain or menstrual irregularities.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "PCOD (Polycystic Ovarian Disease)",
+    "description": "A hormonal disorder affecting the ovaries, leading to irregular periods and cyst formation.",
+    "url": "https://kushalonline.com/pcod-treatment"
+  },
+  {
+    "letter": "P",
+    "name": "Pelvic Inflammatory Disease (PID)",
+    "description": "An infection of the female reproductive organs causing pelvic pain, discharge, and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Pharyngitis",
+    "description": "Inflammation of the throat causing pain, irritation, and difficulty in swallowing.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Piles (Hemorrhoids)",
+    "description": "Swollen veins in the anal region causing pain, itching, and bleeding.",
+    "url": "https://kushalonline.com/piles-%26-fistula"
+  },
+  {
+    "letter": "P",
+    "name": "PIVD (Prolapsed Intervertebral Disc)",
+    "description": "A condition where a spinal disc bulges or slips, causing back pain and nerve compression.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Premature Ejaculation",
+    "description": "A condition where ejaculation occurs earlier than desired during sexual activity.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Primary Complex",
+    "description": "An early stage of tuberculosis infection, usually involving the lungs.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Prostatitis",
+    "description": "Inflammation of the prostate gland causing pain, urinary problems, and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Psoriasis",
+    "description": "A chronic skin condition causing thick, red patches with silvery scales.",
+    "url": "https://kushalonline.com/psoriasis-treatment"
+  },
+  {
+    "letter": "P",
+    "name": "Pyelonephritis",
+    "description": "A bacterial kidney infection causing fever, pain, and urinary symptoms.",
+    "url": ""
+  },
+  {
+    "letter": "R",
+    "name": "Restless Leg Syndrome",
+    "description": "A neurological condition causing an uncontrollable urge to move the legs, usually due to discomfort, especially at night.",
+    "url": ""
+  },
+  {
+    "letter": "R",
+    "name": "Rheumatoid Arthritis",
+    "description": "An autoimmune disorder where the immune system attacks joints, causing pain, swelling, and stiffness.",
+    "url": "https://kushalonline.com/rheumatoid-arthritis-1"
+  },
+  {
+    "letter": "S",
+    "name": "Sciatica",
+    "description": "Nerve pain radiating from the lower back down the leg, often due to nerve compression.",
+    "url": ""
+  },
+  {
+    "letter": "S",
+    "name": "Scurf",
+    "description": "A severe form of dandruff with excessive flaking of the scalp.",
+    "url": ""
+  },
+  {
+    "letter": "S",
+    "name": "Seborrheic Dermatitis",
+    "description": "An inflammatory skin condition caused by Seborrhoea, leading to redness, itching and flaky (dandruff like) skin.",
+    "url": "https://kushalonline.com/skin-%26-hair#a77e6850-2849-47d5-9a90-f0986f45cdf6"
+  },
+  {
+    "letter": "S",
+    "name": "Sinusitis",
+    "description": "Inflammation of the sinuses causing congestion, facial pain, and headache.",
+    "url": "https://kushalonline.com/allergies-%26-sinusitis"
+  },
+  {
+    "letter": "S",
+    "name": "Stress",
+    "description": "A state of mental or physical strain affecting overall health and well-being.",
+    "url": ""
+  },
+  {
+    "letter": "S",
+    "name": "Stye",
+    "description": "A painful, pus-filled swelling on the eyelid caused by infection.",
+    "url": ""
+  },
+  {
+    "letter": "T",
+    "name": "Tinea Alba (Pityriasis Alba)",
+    "description": "A mild fungal skin infection causing light-colored patches, usually on the face or arms.",
+    "url": ""
+  },
+  {
+    "letter": "T",
+    "name": "Tinea Corporis",
+    "description": "A fungal infection of the body causing ring-shaped, itchy skin rashes.",
+    "url": "https://kushalonline.com/skin-%26-hair#6acf8fc5-6e00-45e8-a18c-21f6a8803f8c"
+  },
+  {
+    "letter": "T",
+    "name": "Tinea Versicolor (Pityriasis Versicolor)",
+    "description": "A common fungal infection causing discolored patches on the skin, especially on the chest and back.",
+    "url": "https://kushalonline.com/skin-%26-hair#2202160e-c84e-4c35-9dea-6163b3c4b163"
+  },
+  {
+    "letter": "T",
+    "name": "Tonsillitis",
+    "description": "Inflammation of the tonsils causing sore throat, pain on swallowing, and fever.",
+    "url": ""
+  },
+  {
+    "letter": "T",
+    "name": "Trigeminal Neuralgia",
+    "description": "A nerve disorder causing sudden, severe facial pain along the trigeminal nerve.",
+    "url": ""
+  },
+  {
+    "letter": "T",
+    "name": "Typhoid",
+    "description": "A bacterial infection causing prolonged fever, weakness, and abdominal symptoms, usually spread through contaminated food and water.",
+    "url": ""
+  },
+  {
+    "letter": "U",
+    "name": "Ulcerative Colitis",
+    "description": "A chronic inflammatory condition of the colon causing diarrhea, abdominal pain, and bleeding.",
+    "url": "https://kushalonline.com/ibs-%26-colitis#9a1b6b37-70da-4ea0-9ddc-97738bc59e25"
+  },
+  {
+    "letter": "U",
+    "name": "Urinary Tract Infection (UTI)",
+    "description": "An infection of the urinary system causing burning urination, urgency, and discomfort.",
+    "url": ""
+  },
+  {
+    "letter": "U",
+    "name": "Urticaria",
+    "description": "An allergic skin condition causing sudden, itchy, raised swellings (hives) on the skin.",
+    "url": "https://kushalonline.com/skin-%26-hair#b36fe704-750e-4ce8-8b82-94a1f7736f2f"
+  },
+  {
+    "letter": "V",
+    "name": "Varicose Veins",
+    "description": "Enlarged, twisted veins (usually in the legs) causing pain, swelling, and heaviness.",
+    "url": ""
+  },
+  {
+    "letter": "V",
+    "name": "Vertigo",
+    "description": "A sensation of spinning or dizziness due to inner ear or balance disorders.",
+    "url": ""
+  },
+  {
+    "letter": "V",
+    "name": "Vitiligo (Leucoderma, White Patches)",
+    "description": "A skin condition causing loss of pigment, leading to white patches on the skin.",
+    "url": "https://kushalonline.com/vitiligo-treatment"
+  },
+  {
+    "letter": "V",
+    "name": "Vocal Cord Nodules",
+    "description": "Benign growths on the vocal cords causing hoarseness and voice strain.",
+    "url": ""
+  },
+  {
+    "letter": "W",
+    "name": "Warts",
+    "description": "Viral skin growths caused by HPV, appearing as rough, raised lesions.",
+    "url": "https://kushalonline.com/skin-%26-hair#98c38ebf-6024-4b0c-aecd-7f36f4d6938a"
+  },
+  {
+    "letter": "W",
+    "name": "Weight Loss (Obesity)",
+    "description": "Excess body weight due to abnormal fat accumulation affecting overall health.",
+    "url": ""
+  },
+  {
+    "letter": "W",
+    "name": "Writer's Cramp",
+    "description": "A task-specific muscle disorder causing hand pain and difficulty while writing.",
+    "url": ""
+  }
+]
