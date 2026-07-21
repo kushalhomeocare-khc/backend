@@ -301,9 +301,16 @@
         els.stage.style.height = '0px';
       }
 
-      // release the fixed height back to auto once settled, so content
-      // like the condition accordion can still expand the stage naturally
-      setTimeout(() => { els.stage.style.height = ''; }, CONFIG.heightDurationMs);
+     // release the fixed height back to auto once settled, so content
+// like the condition accordion can still expand the stage naturally
+setTimeout(() => {
+  els.stage.style.height = '';
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(reportHeight);
+  });
+}, CONFIG.heightDurationMs);
+
     }, current ? CONFIG.fadeDurationMs : 0);
   };
 
@@ -320,15 +327,21 @@
   };
 
   const toggleAccordionItem = (item) => {
-    const isOpen = item.classList.contains('open');
-    // only one disease stays open at a time
-    closeAllAccordionItems();
-    if (!isOpen) {
-      item.classList.add('open');
-      const trigger = item.querySelector('.accordion-trigger');
-      if (trigger) trigger.setAttribute('aria-expanded', 'true');
-    }
-  };
+  const isOpen = item.classList.contains('open');
+
+  // only one disease stays open at a time
+  closeAllAccordionItems();
+
+  if (!isOpen) {
+    item.classList.add('open');
+    const trigger = item.querySelector('.accordion-trigger');
+    if (trigger) trigger.setAttribute('aria-expanded', 'true');
+  }
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(reportHeight);
+  });
+};
 
   /* ------------------------------------------------------------------------
      SEARCH
@@ -380,8 +393,11 @@
     });
 
     els.noResults.style.display = anyVisible ? 'none' : 'block';
-  };
 
+requestAnimationFrame(() => {
+  requestAnimationFrame(reportHeight);
+});
+};
   /* ------------------------------------------------------------------------
      EVENT WIRING (event delegation — one listener per container)
      ------------------------------------------------------------------------ */
