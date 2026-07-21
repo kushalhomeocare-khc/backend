@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feature Section — Full Bleed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#12cfff;
+    --navy:#0B2A3D;
+    --body-text:#0E3A4E;
+  }
+  *{box-sizing:border-box;}
+  html, body{
+    margin:0;
+    min-height:100%;
+    font-family:'Roboto',sans-serif;
+    color:var(--navy);
+  }
+  .feature-section{
+    background:var(--bg);
+  }
+  .wrap{
+    width:100%;
+    max-width:1220px;
+    margin:0 auto;
+    padding:2px 3px;
+  }
+  .section-heading{
+    font-family:'Fjalla One', sans-serif;
+    font-weight:400;
+    letter-spacing:.02em;
+    font-size:32px;
+    color:var(--navy);
+    text-align:center;
+    margin:0 0 28px;
+  }
+  .mobile-break{ display:inline; }
+  .blocks{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    padding-bottom:2px;
+  }
+  .block{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+  .icon-chip{
+    position:relative;
+    width:83px;height:83px;
+    border-radius:26px;
+    background:
+      linear-gradient(145deg, rgba(255,255,255,.85) 0%, rgba(255,255,255,.2) 40%, rgba(255,255,255,0) 58%),
+      linear-gradient(160deg, #F2FCFF 0%, #A9E4F8 60%, #8FDAF3 100%);
+    backdrop-filter:blur(8px) saturate(140%);
+    -webkit-backdrop-filter:blur(8px) saturate(140%);
+    border:1px solid rgba(255,255,255,.9);
+    box-shadow:
+      inset 0 2px 4px rgba(255,255,255,1),
+      inset 0 -10px 14px rgba(15,100,140,.16),
+      0 4px 8px rgba(6,60,90,.14),
+      0 16px 28px rgba(6,60,90,.28);
+    display:flex;align-items:center;justify-content:center;
+    margin-bottom:22px;
+    overflow:hidden;
+  }
+  .icon-chip::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    border-radius:26px;
+    padding:1px;
+    background:linear-gradient(160deg, rgba(255,255,255,.9), rgba(255,255,255,0) 40%);
+    -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite:xor;
+    mask-composite:exclude;
+    pointer-events:none;
+  }
+  .icon-chip::after{
+    content:'';
+    position:absolute;
+    top:-40%;
+    left:-30%;
+    width:70%;
+    height:70%;
+    background:rgba(255,255,255,.55);
+    filter:blur(10px);
+    border-radius:50%;
+    transform:rotate(20deg);
+    pointer-events:none;
+  }
+  .icon-chip svg{position:relative;z-index:1;width:38px;height:38px;stroke:#0B4A63;}
+
+  .block h3{
+    font-family:'Fjalla One', sans-serif;
+    font-weight:400;
+    letter-spacing:.02em;
+    font-size:23.6px;
+    color:var(--navy);
+    margin:0 0 4px;
+  }
+  .block p{
+    font-family:'Roboto',sans-serif;
+    font-size:16.5px;
+    line-height:1.5;
+    color:var(--body-text);
+    max-width:400px;
+    margin:0;
+  }
+
+  /* ================= Desktop: horizontal row ================= */
+  @media (min-width: 1100px){
+    .wrap{ padding:2px 48px; }
+    .section-heading{ font-size:44px; margin-bottom:40px; }
+    .mobile-break{ display:none; }
+    .block h3{ font-size:32px; margin-bottom:10px; }
+    .block p{ font-size:20px; line-height:1.55; max-width:100%; }
+    .blocks{
+      flex-direction:row;
+      align-items:flex-start;
+      gap:32px;
+    }
+    .block{ flex:1; }
+  }
+</style>
+</head>
+<body>
+
+<section class="feature-section">
+  <div class="wrap">
+    <h1 class="section-heading">Personalized Care,<br class="mobile-break"> Delivered Online.</h1>
+    <div class="blocks">
+
+      <div class="block">
+        <div class="icon-chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.4-7 10-4-1.6-7-5.4-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>Complete Privacy</h3>
+        <p>Confidential consultations with complete respect for your privacy and personal information.</p>
+      </div>
+
+      <div class="block">
+        <div class="icon-chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg>
+        </div>
+        <h3>Direct Doctor Access</h3>
+        <p>Direct communication with your homeopathic doctor without unnecessary intermediaries.</p>
+      </div>
+
+      <div class="block">
+        <div class="icon-chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1"/><path d="M12 16.8s-3.2-1.9-3.2-4.2a2 2 0 0 1 3.2-1.6 2 2 0 0 1 3.2 1.6c0 2.3-3.2 4.2-3.2 4.2z"/></svg>
+        </div>
+        <h3>Personalized Approach</h3>
+        <p>Personalized treatment planned according to your individual health condition.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
