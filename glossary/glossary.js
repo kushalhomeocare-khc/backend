@@ -1,4 +1,3 @@
-Content is user-generated and unverified.
 /* ==========================================================================
    Kushal Online — A-Z Glossary
    glossary.js
