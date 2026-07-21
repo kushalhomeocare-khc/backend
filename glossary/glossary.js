@@ -463,7 +463,14 @@
   const reportHeight = () => {
     if (!CONFIG.reportHeightToParent) return;
     if (window.parent === window) return; // not embedded in an iframe, nothing to report
-    const height = document.documentElement.scrollHeight;
+    const height = Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.offsetHeight,
+    document.body.getBoundingClientRect().height
+);
+
     window.parent.postMessage({ type: 'kushal-glossary-height', height }, '*');
   };
 
