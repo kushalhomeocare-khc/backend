@@ -482,6 +482,11 @@
   },
   {
     "letter": "L",
+    "name": "Lupus (Systemic Lupus Erythematosus - SLE)",
+    "description": "A chronic autoimmune disease that can cause joint pain, skin rashes, fatigue, and inflammation of the kidneys, heart, lungs, and other organs."
+  },
+  {
+    "letter": "L",
     "name": "Loss of Libido",
     "description": "Reduced sexual desire due to physical, hormonal, or psychological factors.",
     "url": ""
@@ -526,7 +531,7 @@
     "letter": "N",
     "name": "Nasal Polyps",
     "description": "Soft, non-cancerous growths in the nasal passages causing blockage and breathing difficulty.",
-    "url": ""
+    "url": "https://kushalonline.com/surgical-conditions#2e8c4972-dc60-4018-8e5f-a04812463d80"
   },
   {
     "letter": "N",
@@ -550,13 +555,13 @@
     "letter": "O",
     "name": "Obsessive Compulsive Disorder (OCD)",
     "description": "A mental health condition marked by unwanted repetitive thoughts (obsessions) and behaviors (compulsions).",
-    "url": ""
+    "url": "https://kushalonline.com/behavioural-disorders#20bff9b4-7c98-4794-a35c-f7ded492431a"
   },
   {
     "letter": "O",
-    "name": "Oppositional Defiant Disorder (ODD)",
+    "name": "Oppositional Defiant Disorder (Behavioral Disorder)",
     "description": "A behavioral disorder in children involving persistent defiance, irritability, and disobedience toward authority figures.",
-    "url": ""
+    "url": "https://kushalonline.com/behavioural-disorders#08e8af73-4957-43f1-ba80-89324751203c"
   },
   {
     "letter": "O",
@@ -568,7 +573,7 @@
     "letter": "O",
     "name": "Osteoarthritis",
     "description": "A degenerative joint disease where cartilage wears down, leading to pain, stiffness, and reduced movement.",
-    "url": ""
+    "url": "https://kushalonline.com/bone-%26-joint-disorders#bd5ee94f-2dce-45f2-8b70-14620643358d"
   },
   {
     "letter": "O",
@@ -592,12 +597,18 @@
     "letter": "O",
     "name": "Ovarian Cyst",
     "description": "A fluid-filled sac in or on the ovary, often harmless but sometimes causing pain or menstrual irregularities.",
-    "url": ""
+    "url": "https://kushalonline.com/women%E2%80%99s-health#4aba1931-a087-45d4-96c0-974a325f5d3b"
   },
   {
     "letter": "P",
     "name": "PCOD (Polycystic Ovarian Disease)",
     "description": "A hormonal disorder affecting the ovaries, leading to irregular periods and cyst formation.",
+    "url": "https://kushalonline.com/pcod-treatment"
+  },
+  {
+    "letter": "P",
+    "name": "PCOS (Polycystic Ovarian Syndrome)",
+    "description": "PCOS is a broader hormonal and metabolic syndrome that affects ovulation, insulin metabolism, reproductive hormones, and overall health.",
     "url": "https://kushalonline.com/pcod-treatment"
   },
   {
@@ -620,15 +631,15 @@
   },
   {
     "letter": "P",
-    "name": "PIVD (Prolapsed Intervertebral Disc)",
+    "name": "Slip Disc (Prolapsed Intervertebral Disc)",
     "description": "A condition where a spinal disc bulges or slips, causing back pain and nerve compression.",
-    "url": ""
+    "url": "https://kushalonline.com/sciatica-%26-slip-disc"
   },
   {
     "letter": "P",
-    "name": "Premature Ejaculation",
+    "name": "Premature Ejaculation (PE)",
     "description": "A condition where ejaculation occurs earlier than desired during sexual activity.",
-    "url": ""
+    "url": "https://kushalonline.com/premature-ejaculation"
   },
   {
     "letter": "P",
@@ -668,7 +679,7 @@
   },
   {
     "letter": "R",
-    "name": "Rheumatoid Arthritis",
+    "name": "Rheumatoid Arthritis (RA)",
     "description": "An autoimmune disorder where the immune system attacks joints, causing pain, swelling, and stiffness.",
     "url": "https://kushalonline.com/rheumatoid-arthritis-1"
   },
@@ -676,12 +687,6 @@
     "letter": "S",
     "name": "Sciatica",
     "description": "Nerve pain radiating from the lower back down the leg, often due to nerve compression.",
-    "url": ""
-  },
-  {
-    "letter": "S",
-    "name": "Scurf",
-    "description": "A severe form of dandruff with excessive flaking of the scalp.",
     "url": ""
   },
   {
@@ -730,7 +735,7 @@
     "letter": "T",
     "name": "Tonsillitis",
     "description": "Inflammation of the tonsils causing sore throat, pain on swallowing, and fever.",
-    "url": ""
+    "url": "https://kushalonline.com/premature-ejaculation"
   },
   {
     "letter": "T",
@@ -746,7 +751,7 @@
   },
   {
     "letter": "U",
-    "name": "Ulcerative Colitis",
+    "name": "Ulcerative Colitis (UC)",
     "description": "A chronic inflammatory condition of the colon causing diarrhea, abdominal pain, and bleeding.",
     "url": "https://kushalonline.com/ibs-%26-colitis#9a1b6b37-70da-4ea0-9ddc-97738bc59e25"
   },
@@ -758,7 +763,7 @@
   },
   {
     "letter": "U",
-    "name": "Urticaria",
+    "name": "Urticaria (Hives)",
     "description": "An allergic skin condition causing sudden, itchy, raised swellings (hives) on the skin.",
     "url": "https://kushalonline.com/skin-%26-hair#b36fe704-750e-4ce8-8b82-94a1f7736f2f"
   },
@@ -776,7 +781,7 @@
   },
   {
     "letter": "V",
-    "name": "Vitiligo (Leucoderma, White Patches)",
+    "name": "Vitiligo (White Patches)",
     "description": "A skin condition causing loss of pigment, leading to white patches on the skin.",
     "url": "https://kushalonline.com/vitiligo-treatment"
   },
@@ -802,6 +807,18 @@
     "letter": "W",
     "name": "Writer's Cramp",
     "description": "A task-specific muscle disorder causing hand pain and difficulty while writing.",
+    "url": ""
+  },
+  {
+    "letter": "X",
+    "name": "Xanthelasma",
+    "description": "Yellowish deposits of cholesterol crystals on or around the eyelids, often associated with high blood cholesterol.",
+    "url": ""
+  },
+  {
+    "letter": "Y",
+    "name": "Yeast Infection (Candidiasis)",
+    "description": "A fungal infection causing itching, redness, irritation, or white discharge, commonly affecting the mouth, skin, or genital area.",
     "url": ""
   }
 ]
