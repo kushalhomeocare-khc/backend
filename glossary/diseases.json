@@ -228,7 +228,7 @@
   },
   {
     "letter": "E",
-    "name": "Erectile Dysfunction",
+    "name": "Erectile Dysfunction (Impotence)",
     "description": "Inability to achieve or maintain an erection sufficient for sexual activity.",
     "url": "https://kushalonline.com/erectile-dysfunction"
   },
@@ -322,7 +322,7 @@
     "letter": "G",
     "name": "Gout",
     "description": "A form of arthritis caused by uric acid crystal deposition, leading to severe joint pain.",
-    "url": ""
+    "url": "https://kushalonline.com/bone-%26-joint-disorders#f4d72ff4-a76d-46c8-874d-b98dad45372f"
   },
   {
     "letter": "G",
@@ -356,7 +356,7 @@
   },
   {
     "letter": "H",
-    "name": "Hemiplegia",
+    "name": "Hemiplegia (One Sided Paralysis)",
     "description": "Paralysis of one side of the body, usually due to brain injury or stroke.",
     "url": ""
   },
@@ -398,14 +398,8 @@
   },
   {
     "letter": "I",
-    "name": "Ichthyosis",
+    "name": "Ichthyosis (Fish Scale Skin)",
     "description": "A skin condition causing dry, thickened, scaly skin due to abnormal shedding.",
-    "url": ""
-  },
-  {
-    "letter": "I",
-    "name": "Impotence",
-    "description": "Inability to achieve or maintain an erection sufficient for sexual activity.",
     "url": ""
   },
   {
@@ -424,13 +418,13 @@
     "letter": "J",
     "name": "Jaundice",
     "description": "Yellowing of the skin and eyes due to increased bilirubin levels in the blood.",
-    "url": ""
+    "url": "https://kushalonline.com/digestive-%26-liver#3990f798-ff4c-4444-864d-c826d7deef22"
   },
   {
     "letter": "J",
     "name": "Joint Pain",
     "description": "Discomfort or pain in the joints due to inflammation, injury, or degeneration.",
-    "url": ""
+    "url": "https://kushalonline.com/bone-%26-joint-disorders"
   },
   {
     "letter": "J",
@@ -448,7 +442,7 @@
     "letter": "K",
     "name": "Kidney Stones",
     "description": "Hard deposits in kidneys causing pain and urinary discomfort.",
-    "url": ""
+    "url": "https://kushalonline.com/kidney-stones-treatment"
   },
   {
     "letter": "L",
