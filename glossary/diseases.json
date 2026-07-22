@@ -13,8 +13,8 @@
   },
   {
     "letter": "A",
-    "name": "Adenoids",
-    "description": "Enlarged lymph tissue causing nasal blockage and mouth breathing, especially in children.",
+    "name": "Adenoids Enlargement (Adenoid Hypertrophy)",
+    "description": "Enlarged adenoids (a kind of lymphoid tissue behind the nose) causing nasal blockage, mouth breathing, recurrent ear infections and disturbed sleep in children.",
     "url": "https://kushalonline.com/children%E2%80%99s-health#9885f95d-0e96-4c6b-81fb-a7522a1499ec"
   },
   {
@@ -75,13 +75,13 @@
     "letter": "A",
     "name": "Arthritis",
     "description": "Inflammation of joints causing pain, swelling, and stiffness.",
-    "url": ""
+    "url": "https://kushalonline.com/bone-%26-joint-disorders"
   },
   {
     "letter": "A",
     "name": "Asthma",
     "description": "A chronic respiratory condition causing breathing difficulty, wheezing, and coughing.",
-    "url": ""
+    "url": "https://kushalonline.com/children%E2%80%99s-health#926ef061-348f-49a7-b3f5-7737bdab99e3"
   },
   {
     "letter": "A",
@@ -99,7 +99,7 @@
     "letter": "B",
     "name": "Bed Wetting (Nocturnal Enuresis)",
     "description": "Involuntary urination during sleep, commonly seen in children.",
-    "url": ""
+    "url": "https://kushalonline.com/children%E2%80%99s-health#af89e1f4-06b9-4b66-8121-9a5b3df54225"
   },
   {
     "letter": "B",
@@ -107,24 +107,14 @@
     "description": "Inflammation of fluid-filled sacs (bursae) around joints causing pain and swelling.",
     "url": ""
   },
-  {
-    "letter": "B",
-    "name": "BPH (Benign Prostatic Hyperplasia)",
-    "description": "Non-cancerous enlargement of the prostate causing urinary difficulty in men.",
-    "url": ""
-  },
+  
   {
     "letter": "B",
     "name": "Bronchitis",
     "description": "Inflammation of the airways causing persistent cough, mucus, and breathing discomfort.",
     "url": ""
   },
-  {
-    "letter": "C",
-    "name": "Cervical Spondylitis",
-    "description": "Degenerative changes in the neck causing pain, stiffness, and reduced movement.",
-    "url": "https://kushalonline.com/diseas-cervical-spondylos"
-  },
+  
   {
     "letter": "C",
     "name": "Chalazion",
@@ -135,25 +125,14 @@
     "letter": "C",
     "name": "Chickenpox",
     "description": "A contagious viral infection causing itchy fluid-filled blisters and fever.",
-    "url": ""
+    "url": "https://kushalonline.com/acute-conditions#11d37501-1643-4a06-90c7-00b02d74abe7"
   },
+ 
   {
     "letter": "C",
-    "name": "Cholecystitis",
-    "description": "Inflammation of the gallbladder causing abdominal pain, nausea, and fever.",
-    "url": ""
-  },
-  {
-    "letter": "C",
-    "name": "Cholelithiasis",
-    "description": "Formation of stones in the gallbladder, which may cause pain or remain silent.",
-    "url": ""
-  },
-  {
-    "letter": "C",
-    "name": "Cold (Common Cold)",
+    "name": "Common Cold",
     "description": "A viral infection causing runny nose, sneezing, and mild throat irritation.",
-    "url": ""
+    "url": "https://kushalonline.com/acute-conditions#9864a12f-fd56-403a-aa7d-1dfaa115975c"
   },
   {
     "letter": "C",
@@ -165,26 +144,21 @@
     "letter": "C",
     "name": "Constipation",
     "description": "Difficulty in passing stool, often with hard or infrequent bowel movements.",
-    "url": ""
+    "url": "https://kushalonline.com/digestive-%26-liver#69ea5199-8640-4067-8db0-178a8cb638c2"
   },
   {
     "letter": "C",
     "name": "Corn",
     "description": "A thickened area of skin caused by repeated pressure or friction.",
-    "url": ""
+    "url": "https://kushalonline.com/skin-%26-hair#98c38ebf-6024-4b0c-aecd-7f36f4d6938a"
   },
   {
     "letter": "C",
     "name": "Cough",
     "description": "A protective reflex to clear the airways of irritation or mucus.",
-    "url": ""
+    "url": "https://kushalonline.com/acute-conditions#5ac137d3-8e36-4749-b54e-d6b7644977cb"
   },
-  {
-    "letter": "C",
-    "name": "CSOM (Chronic Suppurative Otitis Media)",
-    "description": "A long-standing ear infection with persistent discharge and possible hearing loss.",
-    "url": ""
-  },
+  
   {
     "letter": "C",
     "name": "Cystitis",
@@ -205,21 +179,22 @@
   },
   {
     "letter": "D",
-    "name": "Diabetes Mellitus",
+    "name": "Diabetes Mellitus (Blood Sugar)",
     "description": "A metabolic disorder with high blood sugar due to impaired insulin function.",
     "url": ""
   },
-  {
-    "letter": "D",
-    "name": "DUB (Dysfunctional Uterine Bleeding)",
-    "description": "Abnormal uterine bleeding not related to pregnancy or identifiable pathology.",
-    "url": ""
-  },
+  
   {
     "letter": "D",
     "name": "Duodenal Ulcer",
     "description": "A sore in the upper part of the intestine causing burning abdominal pain.",
     "url": ""
+  },
+  {
+    "letter": "E",
+    "name": "Ear Infection (Otitis Media)",
+    "description": "A recurring ear infection with persistent discharge and possible hearing loss.",
+    "url": "https://kushalonline.com/children%E2%80%99s-health#df5b226d-978a-4d10-a1bc-0223b1e59da0"
   },
   {
     "letter": "E",
@@ -231,7 +206,7 @@
     "letter": "E",
     "name": "Eczema",
     "description": "A chronic skin condition causing itching, redness, and dry, inflamed skin.",
-    "url": "https://kushalonline.com/skin-%26-hair#105a2f42-6d3b-47f3-bdff-b5711dc9461a"
+    "url": "https://kushalonline.com/eczema-%26-dermatitis"
   },
   {
     "letter": "E",
@@ -259,9 +234,9 @@
   },
   {
     "letter": "F",
-    "name": "Fibroadenoma",
+    "name": "Breast Lumps (Fibroadenoma)",
     "description": "A benign breast lump commonly seen in young women.",
-    "url": ""
+    "url": "https://kushalonline.com/women%E2%80%99s-health#d978b642-fae0-4f81-a255-4f4565a8da4c"
   },
   {
     "letter": "F",
@@ -305,11 +280,17 @@
     "description": "A fungal infection causing thickened, discolored, and brittle nails.",
     "url": "https://kushalonline.com/skin-%26-hair#ba402355-06e1-4e8a-a426-3beae7f452e4"
   },
+   {
+    "letter": "G",
+    "name": "Gallbladder Inflamation (Cholecystitis)",
+    "description": "Inflammation of the gallbladder causing abdominal pain, nausea, and fever.",
+    "url": ""
+  },
   {
     "letter": "G",
-    "name": "Gall Bladder Stones",
-    "description": "Hard deposits formed in the gallbladder, often causing abdominal pain and discomfort.",
-    "url": ""
+    "name": "Gallbladder Stones (Cholelithiasis)",
+    "description": "Formation of stones in the gallbladder, which may cause pain or remain silent.",
+    "url": "https://kushalonline.com/surgical-conditions#94cd9275-8649-4977-b204-d96da23430ca"
   },
   {
     "letter": "G",
@@ -376,6 +357,12 @@
     "name": "Haemorrhoids (Piles)",
     "description": "Swollen veins in the anal region causing pain, itching, and bleeding.",
     "url": "https://kushalonline.com/piles-%26-fistula"
+  },
+  {
+    "letter": "H",
+    "name": "Heavy Periods (Menorrhagia)",
+    "description": "Abnormal uterine bleeding not related to pregnancy or identifiable pathology.",
+    "url": "https://kushalonline.com/women%E2%80%99s-health#4c498ad5-7baa-4b44-8c52-5b84873d840d"
   },
   {
     "letter": "H",
@@ -571,6 +558,12 @@
   },
   {
     "letter": "N",
+    "name": "Neck Pain (Cervical Spondylitis)",
+    "description": "Degenerative changes in the neck causing neck pain, stiffness, and reduced movement.",
+    "url": "https://kushalonline.com/neck-pain"
+  },
+  {
+    "letter": "N",
     "name": "Nephrotic Syndrome",
     "description": "A kidney condition causing excessive protein loss in urine, leading to swelling and weakness.",
     "url": ""
@@ -670,6 +663,12 @@
     "name": "Primary Complex",
     "description": "An early stage of tuberculosis infection, usually involving the lungs.",
     "url": ""
+  },
+  {
+    "letter": "P",
+    "name": "Prostate Enlargement (BPH)",
+    "description": "Non-cancerous enlargement of the prostate causing urinary difficulty in men.",
+    "url": "https://kushalonline.com/surgical-conditions#b66952d5-7ac3-4a65-bcbb-bf3b11afec16"
   },
   {
     "letter": "P",
