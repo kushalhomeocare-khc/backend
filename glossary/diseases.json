@@ -452,12 +452,6 @@
   },
   {
     "letter": "L",
-    "name": "Leucoderma (Vitiligo)",
-    "description": "Loss of skin pigment leading to white patches on the skin.",
-    "url": "https://kushalonline.com/vitiligo-treatment"
-  },
-  {
-    "letter": "L",
     "name": "Lichen Planus",
     "description": "An inflammatory skin condition causing itchy, purplish lesions.",
     "url": "https://kushalonline.com/skin-%26-hair#3b570cd6-7570-4190-8acd-e81d87948328"
@@ -484,7 +478,7 @@
     "letter": "L",
     "name": "Lumbar Spondylitis",
     "description": "Degenerative changes in the lower spine causing back pain and stiffness.",
-    "url": ""
+    "url": "https://kushalonline.com/sciatica-%26-slip-disc"
   },
   {
     "letter": "L",
@@ -496,19 +490,19 @@
     "letter": "M",
     "name": "Measles",
     "description": "A highly contagious viral infection causing fever, cough, and a characteristic skin rash.",
-    "url": ""
+    "url": "https://kushalonline.com/acute-conditions#ee791ff2-d078-4ea7-a0ed-b105a8df9fbf"
   },
   {
     "letter": "M",
     "name": "Menopausal Syndrome",
     "description": "A group of symptoms like hot flashes and mood changes due to hormonal decline in menopause.",
-    "url": ""
+    "url": "https://kushalonline.com/women%E2%80%99s-health#cb09c5ee-0591-4f39-b07a-48c87c5d79c5"
   },
   {
     "letter": "M",
-    "name": "Menstrual Disorders",
+    "name": "Menstrual Disorders (Irregular Periods)",
     "description": "Irregular, painful, or heavy menstrual cycles affecting normal reproductive health.",
-    "url": ""
+    "url": "https://kushalonline.com/women%E2%80%99s-health#4c498ad5-7baa-4b44-8c52-5b84873d840d"
   },
   {
     "letter": "M",
@@ -526,12 +520,6 @@
     "letter": "M",
     "name": "Muscular Dystrophy",
     "description": "A group of genetic disorders causing progressive muscle weakness and degeneration.",
-    "url": ""
-  },
-  {
-    "letter": "M",
-    "name": "Myoma of Uterus",
-    "description": "A benign tumor of the uterus, also known as uterine fibroid.",
     "url": ""
   },
   {
