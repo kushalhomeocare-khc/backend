@@ -1,0 +1,423 @@
+/* ==========================================================================
+   Kushal Online — Treatment Plans
+   style.css
+   ==========================================================================
+   Color tokens, .glass-block, and card conventions are carried over
+   unchanged from the A-Z glossary stylesheet so both sections feel like
+   one site. This file adds: region toggle, plan accordion, notes block,
+   and payment block. Fonts: Fjalla One (display) + Roboto (body).
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+  --sky-top:#5FCBF5;
+  --sky-bottom:#28A9E0;
+  --navy:#123047;
+  --navy-soft:#3d5a70;
+  --gold:#F0B429;
+  --gold-soft:#F7CE6B;
+  --glass-bg:rgba(255,255,255,0.22);
+  --glass-border:rgba(255,255,255,0.45);
+  --footer-dark:#0C2233;
+
+  --font-display:'Fjalla One', sans-serif;
+  --font-body:'Roboto', sans-serif;
+}
+
+*{box-sizing:border-box;}
+
+.plans-section{
+  background:#12CFFF;
+  margin:2px;
+  padding:0;
+  font-family:var(--font-body);
+  color:var(--navy);
+  line-height:1.5;
+}
+
+.wrap{max-width:720px;margin:0 auto;padding:0;}
+
+/* shared light-blue "block" style, same as glossary search / A-Z / cards */
+.glass-block{
+  background:#BFEFFC;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:16px;
+  box-shadow:0 6px 18px rgba(15,70,100,0.15);
+}
+
+/* ---------- top bar + brand ---------- */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 2px 18px;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-family:var(--font-display);
+  font-size:15px;
+  letter-spacing:0.02em;
+  color:#ffffff;
+}
+
+.brand .mark{
+  width:22px;height:22px;
+  border-radius:6px;
+  background:var(--footer-dark);
+  color:var(--sky-top);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);
+  font-size:13px;
+}
+
+/* ---------- region toggle: smooth gliding pill ---------- */
+.toggle{
+  position:relative;
+  display:inline-flex;
+  padding:4px;
+  font-family:var(--font-display);
+  font-size:12.5px;
+  letter-spacing:0.02em;
+}
+
+.toggle input{
+  position:absolute;
+  opacity:0;
+  pointer-events:none;
+}
+
+.toggle label{
+  position:relative;
+  z-index:2;
+  padding:8px 20px;
+  border-radius:999px;
+  cursor:pointer;
+  color:var(--navy);
+  opacity:0.55;
+  transition:opacity .3s ease, color .3s ease;
+  user-select:none;
+}
+
+.toggle .thumb{
+  position:absolute;
+  top:4px;left:4px;
+  width:calc(50% - 4px);
+  height:calc(100% - 8px);
+  background:linear-gradient(160deg, #2E8FC0 0%, #1A5F85 100%);
+  border-radius:999px;
+  box-shadow:0 4px 12px rgba(15,70,100,0.35);
+  transition:transform .45s cubic-bezier(.65,0,.35,1);
+  z-index:1;
+}
+
+#region-global:checked ~ .thumb{ transform:translateX(100%); }
+#region-india:checked ~ label[for="region-india"],
+#region-global:checked ~ label[for="region-global"]{
+  color:#ffffff;
+  opacity:1;
+}
+
+/* ---------- region header: icon badge + title/subtitle ---------- */
+.region-header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:4px 2px 20px;
+}
+
+.region-badge{
+  flex:none;
+  width:64px;height:64px;
+  border-radius:50%;
+  background:linear-gradient(160deg, #2E8FC0 0%, #1A5F85 100%);
+  box-shadow:0 8px 20px rgba(15,70,100,0.35);
+  display:flex;align-items:center;justify-content:center;
+}
+.region-badge svg{ width:36px;height:36px; }
+
+.region-copy .region-heading{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:18px;
+  color:#ffffff;
+  margin:0 0 3px;
+}
+.region-copy .region-subheading{
+  font-size:13px;
+  color:rgba(255,255,255,0.85);
+  margin:0;
+}
+
+/* ---------- NRI pricing callout ---------- */
+.nri-block{
+  background:var(--sky-top);
+  border-radius:18px;
+  padding:22px 20px;
+  margin-top:14px;
+}
+.nri-block h2{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:19px;
+  color:var(--footer-dark);
+  margin:0 0 12px;
+}
+.nri-block p{
+  font-size:14px;
+  font-weight:500;
+  color:var(--footer-dark);
+  line-height:1.6;
+  margin:0 0 12px;
+}
+.nri-block p.nri-disclaimer{
+  font-style:italic;
+  font-weight:400;
+  font-size:13px;
+  color:rgba(12,34,51,0.75);
+  margin:0 0 16px;
+}
+.nri-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:var(--footer-dark);
+  color:#ffffff;
+  text-decoration:none;
+  font-family:var(--font-display);
+  font-size:13px;
+  letter-spacing:0.02em;
+  padding:12px 20px;
+  border-radius:999px;
+}
+.nri-cta:hover{ filter:brightness(1.15); }
+
+/* ---------- heading ---------- */
+.plans-title{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:26px;
+  color:#ffffff;
+  margin:0 0 4px;
+  padding:0 2px;
+}
+.plans-sub{
+  font-size:14px;
+  color:rgba(255,255,255,0.85);
+  margin:0 0 18px;
+  padding:0 2px;
+}
+
+/* ---------- plan cards (accordion) ---------- */
+.plans-stage{ transition:height .2s ease; }
+
+.plan-item{
+  background:#BFEFFC;
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:18px;
+  box-shadow:0 6px 18px rgba(15,70,100,0.15);
+  margin-bottom:12px;
+  overflow:hidden;
+}
+
+.plan-trigger{
+  width:100%;
+  background:none;
+  border:none;
+  text-align:left;
+  padding:16px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  cursor:pointer;
+  font-family:inherit;
+}
+
+.plan-trigger .left{ display:flex; flex-direction:column; gap:4px; }
+
+.plan-name{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:17px;
+  color:var(--navy);
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.plan-tag{
+  font-family:var(--font-body);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:0.03em;
+  text-transform:uppercase;
+  padding:3px 9px;
+  border-radius:999px;
+}
+.plan-tag.gold{ background:rgba(240,180,41,0.22); color:#8a5f06; }
+.plan-tag.blue{ background:rgba(26,95,133,0.14); color:#1A5F85; }
+
+.plan-rate{
+  font-size:12.5px;
+  color:var(--navy-soft);
+}
+
+.plan-trigger .right{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex:none;
+}
+
+.plan-price{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:19px;
+  color:var(--navy);
+  white-space:nowrap;
+}
+
+.plan-chev{
+  width:18px;height:18px;
+  flex:none;
+  color:var(--navy-soft);
+  transition:transform .25s ease;
+}
+.plan-item.open .plan-chev{ transform:rotate(180deg); }
+
+.plan-panel{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .35s ease;
+}
+
+.plan-panel-inner{
+  padding:0 16px 18px;
+  border-top:1px solid rgba(18,48,71,0.12);
+}
+
+.plan-panel ul{
+  margin:14px 0 16px;
+  padding:0 0 0 18px;
+  font-size:13.5px;
+  color:var(--navy-soft);
+  line-height:1.6;
+}
+.plan-panel ul li{ margin-bottom:4px; }
+
+.plan-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:linear-gradient(160deg, #2E8FC0 0%, #1A5F85 100%);
+  color:#ffffff;
+  text-decoration:none;
+  font-family:var(--font-display);
+  font-size:13px;
+  letter-spacing:0.02em;
+  padding:11px 18px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(15,70,100,0.3);
+  transition:filter .2s ease, transform .2s ease;
+}
+.plan-cta:hover{ filter:brightness(1.06); transform:translateY(-1px); }
+
+/* ---------- placeholder (used before Global content arrives) ---------- */
+.plan-placeholder{
+  padding:26px 20px;
+  text-align:center;
+  border:1px dashed rgba(18,48,71,0.3);
+  border-radius:16px;
+  color:var(--navy-soft);
+  font-size:13.5px;
+  background:rgba(255,255,255,0.35);
+}
+
+/* ---------- please note block ---------- */
+.note-block{
+  background:var(--glass-bg);
+  border:1px solid var(--glass-border);
+  border-radius:16px;
+  padding:18px 20px;
+  margin-top:6px;
+}
+.note-block h2{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:16px;
+  color:#ffffff;
+  margin:0 0 10px;
+}
+.note-block ul{
+  margin:0;
+  padding:0 0 0 18px;
+  font-size:13px;
+  color:rgba(255,255,255,0.9);
+  line-height:1.65;
+}
+
+/* ---------- payment block ---------- */
+.payment-block{
+  background:var(--footer-dark);
+  border-radius:18px;
+  padding:26px 20px;
+  margin-top:14px;
+  text-align:center;
+}
+.payment-heading-row{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:14px;
+}
+.payment-heading-row .line{
+  flex:1;
+  height:1px;
+  background:rgba(255,255,255,0.25);
+}
+.payment-heading{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:22px;
+  color:var(--sky-top);
+  margin:0;
+  white-space:nowrap;
+}
+.payment-sub{
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:15px;
+  color:var(--sky-top);
+  margin:0 0 12px;
+}
+.payment-powered{
+  font-size:13.5px;
+  color:rgba(255,255,255,0.65);
+  margin:0 0 16px;
+}
+.payment-disclaimer{
+  font-size:12.5px;
+  font-style:italic;
+  color:rgba(255,255,255,0.55);
+  margin:0;
+  line-height:1.6;
+}
+
+/* ==========================================================================
+   DESKTOP-ONLY ENHANCEMENTS (matches A-Z glossary's approach: spacing and
+   font-size only, no layout/color/shadow changes, 1024px and wider)
+   ========================================================================== */
+@media (min-width: 1024px){
+  .wrap{ padding:0 18px; }
+  .plans-title{ font-size:30px; }
+  .plan-name{ font-size:18px; }
+  .plan-price{ font-size:21px; }
+  .toggle label{ font-size:13.5px; }
+  .payment-heading{ font-size:24px; }
+}
