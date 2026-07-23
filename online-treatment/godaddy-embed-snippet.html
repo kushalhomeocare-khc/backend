@@ -1,0 +1,27 @@
+<!--
+  Paste this into a GoDaddy Website Builder "Embed" / "HTML" section,
+  on whichever page you want the Treatment Plans section to appear.
+
+  Before pasting: upload index.html, style.css, plans.js, and plans.json
+  to kushalonline.com/online-treatment/ (same folder — do not rename
+  the files, plans.js fetches "plans.json" as a relative path).
+-->
+
+<iframe
+  id="kushalTreatmentPlansFrame"
+  src="https://kushalonline.com/online-treatment/index.html"
+  style="width:100%; border:none; display:block;"
+  scrolling="no"
+  title="Treatment Plans">
+</iframe>
+
+<script>
+  window.addEventListener("message", function (event) {
+    if (event.data && event.data.type === "kushalResize" && event.data.height) {
+      var frame = document.getElementById("kushalTreatmentPlansFrame");
+      if (frame) {
+        frame.style.height = event.data.height + "px";
+      }
+    }
+  });
+</script>
