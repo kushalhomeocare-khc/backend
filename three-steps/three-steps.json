@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "eyebrow": "Step 1",
+      "title": "Choose Your Plan",
+      "body": "Select a treatment plan, share your details and health concerns, then complete your secure online payment.",
+      "image": "https://api.kushalonline.com/image/step1.jpg"
+    },
+    {
+      "eyebrow": "Step 2",
+      "title": "Share Case Details",
+      "body": "Our doctors review your case, gather additional information and prepare your personalized prescription.",
+      "image": "https://api.kushalonline.com/image/step2.jpg"
+    },
+    {
+      "eyebrow": "Step 3",
+      "title": "Receive Medicines",
+      "body": "Medicines are delivered to your doorstep with clear dosage instructions and follow-up support.",
+      "image": "https://api.kushalonline.com/image/step3.jpg"
+    }
+  ],
+  "cta": {
+    "title": "Start Online Treatment",
+    "body": "Choose the treatment plan that best suits your needs and begin your journey to better health.",
+    "buttonText": "Explore Treatment Plans",
+    "buttonHref": "https://kushalonline.com/start-online-treatment"
+  }
+}
