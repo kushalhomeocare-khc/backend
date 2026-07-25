@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Kushal Online — Three Steps section
+   three-steps.css
+   Section background: white. Accent: brand blue (#12CFFF). Text/contrast:
+   near-black (#161616). Cards keep the light-blue frosted glass treatment
+   carried over from the Treatment Plans stylesheet.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@400;500;700&display=swap');
+
+.ts-section{
+  --brand-blue:#12CFFF;
+  --ink:#161616;
+  --ink-soft:rgba(22,22,22,0.62);
+
+  background:#fff;
+  font-family:'Roboto', sans-serif;
+  color:var(--ink);
+  padding:2px 20px;
+  box-sizing:border-box;
+}
+.ts-section *{ box-sizing:border-box; }
+
+.ts-wrap{
+  max-width:720px;
+  margin:0 auto;
+}
+
+.ts-stepper{
+  position:relative;
+  padding-top:24px;
+}
+
+.ts-track{
+  position:absolute;
+  left:33px;
+  top:32px;
+  bottom:8px;
+  width:2px;
+  background:repeating-linear-gradient(
+    to bottom,
+    rgba(18,207,255,0.35) 0px, rgba(18,207,255,0.35) 6px,
+    transparent 6px, transparent 12px
+  );
+}
+@media (min-width:640px){ .ts-track{ left:41px; } }
+
+.ts-track-fill{
+  position:absolute;
+  left:33px;
+  top:32px;
+  width:2px;
+  height:0%;
+  background:var(--brand-blue);
+  border-radius:2px;
+  transition:height .6s cubic-bezier(.4,0,.2,1);
+}
+@media (min-width:640px){ .ts-track-fill{ left:41px; } }
+
+.ts-step{
+  position:relative;
+  display:grid;
+  grid-template-columns:66px 1fr;
+  gap:6px 20px;
+  padding:28px 0;
+  align-items:start;
+  opacity:0;
+  transform:translateY(18px);
+  transition:opacity .6s ease, transform .6s ease;
+}
+@media (min-width:640px){
+  .ts-step{ grid-template-columns:82px 1fr; gap:6px 30px; }
+}
+.ts-step.is-visible{
+  opacity:1;
+  transform:translateY(0);
+}
+.ts-step:first-child{ padding-top:2px; }
+
+.ts-marker{
+  grid-row:1 / 3;
+  width:66px; height:66px;
+  border-radius:50%;
+  background:#fff;
+  border:2px solid rgba(18,207,255,0.35);
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  z-index:1;
+  transform:scale(0.85);
+  opacity:0.85;
+  transition:border-color .5s ease, box-shadow .5s ease, transform .5s ease, opacity .5s ease;
+}
+@media (min-width:640px){ .ts-marker{ width:82px; height:82px; } }
+
+.ts-marker img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.ts-step.is-visible .ts-marker{
+  border-color:var(--brand-blue);
+  box-shadow:0 8px 20px rgba(18,207,255,0.35);
+  transform:scale(1);
+  opacity:1;
+}
+
+.ts-card{
+  background:linear-gradient(160deg, rgba(255,255,255,0.6), rgba(191,239,252,0.5));
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.75);
+  border-radius:16px;
+  box-shadow:0 8px 26px rgba(15,70,100,0.18), inset 0 1px 0 rgba(255,255,255,0.5);
+  padding:16px 18px 18px;
+}
+
+.ts-step-eyebrow{
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--brand-blue);
+  margin-bottom:6px;
+}
+
+.ts-step h3{
+  font-family:'Fjalla One', sans-serif;
+  font-weight:400;
+  font-size:19px;
+  color:var(--ink);
+  margin:0 0 8px;
+}
+@media (min-width:640px){ .ts-step h3{ font-size:21px; } }
+
+.ts-step p{
+  font-size:14.5px;
+  color:var(--ink-soft);
+  line-height:1.6;
+  margin:0;
+}
+
+.ts-cta-panel{
+  margin-top:44px;
+  background:linear-gradient(160deg, rgba(255,255,255,0.6), rgba(191,239,252,0.5));
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.75);
+  border-radius:18px;
+  box-shadow:0 8px 26px rgba(15,70,100,0.18), inset 0 1px 0 rgba(255,255,255,0.5);
+  padding:40px 26px;
+  text-align:center;
+}
+
+.ts-cta-panel h3{
+  font-family:'Fjalla One', sans-serif;
+  font-weight:400;
+  font-size:clamp(22px,3vw,28px);
+  color:var(--ink);
+  margin:0 0 12px;
+}
+
+.ts-cta-panel p{
+  color:var(--ink-soft);
+  font-size:14.5px;
+  max-width:420px;
+  margin:0 auto 24px;
+  line-height:1.6;
+}
+
+.ts-cta-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  background:linear-gradient(180deg, #5CDBFF 0%, var(--brand-blue) 55%, #0EB8E0 100%);
+  color:var(--ink);
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto', sans-serif;
+  font-weight:700;
+  font-size:13px;
+  letter-spacing:0.02em;
+  padding:14px 30px;
+  border:none;
+  border-radius:999px;
+  cursor:pointer;
+  box-shadow:
+    0 6px 14px rgba(14,150,190,0.4),
+    0 2px 4px rgba(9,60,80,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.7),
+    inset 0 -2px 3px rgba(9,90,120,0.25);
+  transition:filter .2s ease, transform .2s ease;
+}
+.ts-cta-btn:hover{ filter:brightness(1.06); transform:translateY(-1px); }
+.ts-cta-btn:focus-visible{ outline:3px solid var(--ink); outline-offset:3px; }
+.ts-cta-btn svg{ width:15px; height:15px; }
+
+@media (prefers-reduced-motion: reduce){
+  .ts-step{ transition:opacity .01s linear; transform:none; }
+  .ts-marker, .ts-track-fill, .ts-cta-btn{ transition:none; }
+}
