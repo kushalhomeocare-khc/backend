@@ -1,0 +1,52 @@
+{
+  "india": {
+    "id": "india",
+    "icon": "india",
+    "heading": "Consultation Fee \u2013 India",
+    "price": "\u20b9 1,000",
+    "includes": [
+      "Doctor Consultation",
+      "Case Evaluation",
+      "Medical Report Review",
+      "Treatment Recommendation"
+    ],
+    "ctaLabel": "Book Consultation",
+    "ctaUrl": "https://pay.kushalonline.com/india.html?planid=CONSULT",
+    "payment": {
+      "heading": "Secure UPI | Card | Netbanking Payment",
+      "poweredBy": "Powered by PayU Checkout"
+    }
+  },
+
+  "global": {
+    "id": "global",
+    "icon": "global",
+    "heading": "Consultation Fee \u2013 Global",
+    "price": "US $20",
+    "includes": [
+      "Doctor Consultation",
+      "Case Evaluation",
+      "Medical Report Review",
+      "Treatment Recommendation"
+    ],
+    "ctaLabel": "Book Consultation",
+    "ctaUrl": "https://pay.kushalonline.com/global.html?plan=CONSULT",
+    "payment": {
+      "heading": "Secure Card & Pay Pal Payment",
+      "poweredBy": "Powered by Pay Pal"
+    }
+  },
+
+  "note": {
+    "id": "note",
+    "heading": "Please Note",
+    "intro": "After booking your consultation, please share the following details:",
+    "bullets": [
+      "Your symptoms and health concerns",
+      "Medical reports and investigation results",
+      "Previous prescriptions and treatment records",
+      "Photographs (if relevant to your condition)"
+    ],
+    "outro": "You can share these details via WhatsApp, email or our online case submission form."
+  }
+}
