@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Kushal Online — Consultation Fee
+   consult.css
+   ==========================================================================
+   Small additions layered on top of style.css so the shared plan-item /
+   plan-cta / plan-payment-note styling can be reused as-is for the
+   consultation accordion (India / Global / Please Note).
+   ========================================================================== */
+
+.consult-icon{
+  flex:none;
+  width:26px;height:26px;
+  border-radius:50%;
+  overflow:hidden;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  background:#ffffff;
+  box-shadow:0 2px 6px rgba(15,70,100,0.3);
+}
+.consult-icon svg{ width:100%; height:100%; }
+
+.consult-note-intro{
+  font-size:14px;
+  font-weight:500;
+  color:var(--navy);
+  line-height:1.6;
+  margin:14px 0 12px;
+}
+
+.consult-note-list{
+  margin:0 0 4px;
+  padding:0 0 0 18px;
+  font-size:13.5px;
+  color:var(--navy-soft);
+  line-height:1.65;
+}
+.consult-note-list li{ margin-bottom:6px; }
