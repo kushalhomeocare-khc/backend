@@ -1,0 +1,30 @@
+{
+  "subheading": "Begin Online Homeopathy Treatment from the Comfort of Your Home.",
+  "steps": [
+    {
+      "label": "Step 1",
+      "heading": "Select a Treatment Plan",
+      "description": "Choose a plan that fits your needs and make the secure online payment."
+    },
+    {
+      "label": "Step 2",
+      "heading": "Share Case Details",
+      "description": "Doctor reviews your case and prepares your prescription after detailed case evaluation."
+    },
+    {
+      "label": "Step 3",
+      "heading": "Receive Medicines",
+      "description": "Homeopathy medicines are delivered to your doorstep across India & worldwide."
+    }
+  ],
+  "trust": [
+    { "text": "25+ Years Experience" },
+    { "text": "50,000+ Cases Treated" },
+    { "text": "Fully Confidential" }
+  ],
+  "cta": {
+    "text": "Start Online Treatment",
+    "url": "https://kushalonline.com/start-online-treatment"
+  },
+  "_note": "This file is a content reference for editing convenience only. It is NOT loaded dynamically by the HTML/CSS/JS. To change text, edit online-treatment.html directly and update this file to match."
+}
