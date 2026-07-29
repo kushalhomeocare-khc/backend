@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+  --brand:            #12CFFF;
+  --brand-light:      #5CE1FF;
+  --brand-deep:       #049FCB;
+  --brand-deepest:    #027A9E;
+  --ink:              #05303F;
+  --ink-soft:         #35606E;
+  --white:            #fff;
+  --glass-bg:         rgba(255, 255, 255, 0.68);
+  --glass-bg-strong:  rgba(255, 255, 255, 0.86);
+  --glass-border:     rgba(255, 255, 255, 0.55);
+
+  --shadow-card:      0 3px 10px rgba(3, 60, 78, 0.07), 0 1px 3px rgba(3, 60, 78, 0.05);
+  --shadow-card-hover:0 8px 20px rgba(3, 60, 78, 0.12), 0 3px 8px rgba(3, 60, 78, 0.06);
+  --shadow-icon:      0 6px 14px rgba(3, 60, 78, 0.22);
+
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+  --font-heading: 'Fjalla One', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+}
+.ot-section, .ot-section *{ box-sizing: border-box; margin:0; padding:0; -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none; }
+html, body{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* ============ SECTION SHELL ============ */
+.ot-section{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding: 0px 0px 0px;
+  overflow-x: hidden;
+  background: var(--brand);
+  font-family: var(--font-body);
+  color: var(--ink);
+}
+.ot-wrap{
+  position: relative;
+  z-index: 1;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+/* ---- headline / sub ---- */
+.ot-headline{
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+  color: var(--ink);
+  margin-bottom: 14px;
+  white-space: nowrap;
+  text-align: center;
+}
+.ot-sub{
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 17.5px;
+  letter-spacing: 0.3px;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 14px;
+  max-width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 420px){
+  .ot-headline{
+    font-size: calc(6.6vw - 1px);
+  }
+  .mobile-break{
+    display: block;
+  }
+}
+.mobile-break{
+  display: none;
+}
+
+/* ============ GLASS STEP CARDS ============ */
+.ot-steps{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.ot-step{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: var(--radius-lg);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  transition: box-shadow 0.3s var(--ease-premium), transform 0.3s var(--ease-premium);
+}
+.ot-step::before{
+  content:"";
+  position:absolute; inset:0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 32%);
+  opacity:0.7;
+  pointer-events:none;
+}
+.ot-step:hover{
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-1px);
+}
+.ot-step-icon{
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
+  width: 48px; height: 48px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(155deg, var(--brand-light) 0%, var(--brand-deep) 100%);
+  box-shadow: var(--shadow-icon);
+  display: flex; align-items: center; justify-content: center;
+}
+.ot-step-icon svg{ width: 23px; height: 23px; }
+.ot-step-body{ position: relative; z-index: 1; }
+.ot-step-title{
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 17.5px;
+  letter-spacing: 0.2px;
+  color: var(--ink);
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.ot-step-title .step-num{
+  color: var(--white);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: linear-gradient(155deg, var(--brand-light) 0%, var(--brand-deep) 100%);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+.ot-step-title .step-heading{
+  font-size: 20.5px;
+}
+.ot-step-desc{
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--ink-soft);
+}
+
+/* ============ TRUST STRIP ============ */
+.ot-trust{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.ot-trust-card{
+  flex: 1;
+  text-align: center;
+  padding: 16px 8px;
+  border-radius: var(--radius-md);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+.ot-trust-card svg{
+  width: 17px; height: 17px;
+  stroke: var(--white);
+}
+.ot-trust-icon{
+  width: 31.5px; height: 31.5px;
+  border-radius: 9px;
+  background: linear-gradient(155deg, var(--brand-light) 0%, var(--brand-deep) 100%);
+  box-shadow: var(--shadow-icon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 8px;
+}
+.ot-trust-text{
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+/* ============ CTA ============ */
+.ot-cta,
+.ot-cta:link,
+.ot-cta:visited,
+.ot-cta:active,
+.ot-cta:focus,
+.ot-cta:focus-visible,
+.ot-cta:hover{
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.ot-cta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background: var(--ink);
+  color: var(--white);
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 18px 0;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 10px 24px -8px rgba(5,48,63,0.55);
+  transition: transform 0.2s var(--ease-premium), box-shadow 0.2s var(--ease-premium), background 0.2s;
+}
+.ot-cta svg{ width: 17px; height: 17px; }
+.ot-cta:hover{
+  background: #082433;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px -8px rgba(5,48,63,0.6);
+}
+/* ============ DESKTOP-ONLY LAYOUT ============ */
+@media (min-width: 900px){
+  .ot-cta{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .ot-wrap{
+    max-width: 1000px;
+  }
+  .ot-sub{
+    max-width: 700px;
+    font-size: 20.5px;
+    line-height: 1.4;
+  }
+  .ot-steps{
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .ot-step{
+    flex: 1;
+    min-width: 0;
+  }
+  .ot-step-body{
+    min-width: 0;
+  }
+  .ot-step-desc{
+    overflow-wrap: break-word;
+  }
+  .ot-step-title{
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .ot-trust{
+    justify-content: center;
+  }
+  .ot-trust-card{
+    flex: 0 1 220px;
+  }
+  .ot-trust-icon{
+    width: 34.7px;
+    height: 34.7px;
+  }
+  .ot-trust-card svg{
+    width: 18.7px;
+    height: 18.7px;
+  }
+  .ot-trust-text{
+    font-size: 15px;
+  }
+}
