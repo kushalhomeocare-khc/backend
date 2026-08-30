@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Patients Choose Our Doctors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#161616;
+    --panel:#1c1c1c;
+    --ink:#f4fbfd;
+    --ink-soft:#b7c4c8;
+    --accent:#12cfff;
+    --line:#2a2f31;
+  }
+  *{box-sizing:border-box;}
+  html, body{
+    margin:0;
+    min-height:100%;
+    font-family:'Roboto',sans-serif;
+    color:var(--ink);
+  }
+  .choose-doctors-section{
+    background:var(--bg);
+    padding:0;
+  }
+  .wrap{
+    width:70%;
+    max-width:70%;
+    margin:0 auto;
+    padding:0;
+  }
+  .section-head{
+    text-align:center;
+    margin:0 0 18px;
+    padding:0;
+  }
+  .section-head h2{
+    font-family:'Fjalla One',sans-serif;
+    font-weight:400;
+    letter-spacing:0.02em;
+    font-size:25px;
+    line-height:1.5;
+    margin:0;
+    color:#12cfff;
+    white-space:nowrap;
+  }
+  .section-head h2 .mobile-break{ display:none; }
+  .panel-bg{
+    background:#12cfff;
+    border-radius:28px;
+    box-shadow:0 12px 24px -16px rgba(0,0,0,0.55);
+    overflow:hidden;
+  }
+  .panel{
+    background:linear-gradient(180deg, rgba(255,255,255,0.7), rgba(205,238,251,0.45));
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,0.55);
+    border-radius:28px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.6);
+    overflow:hidden;
+    padding:12px 32px;
+  }
+  .list-row{
+    display:grid;
+    grid-template-columns:auto 1fr;
+    column-gap:16px;
+    align-items:center;
+    padding:18px 6px;
+    border-bottom:1px solid rgba(255,255,255,0.55);
+  }
+  .list-row:last-child{ border-bottom:none; }
+  .icon{
+    flex:none;
+    width:48px; height:48px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#7cd8f7,#1f9fd6);
+    box-shadow:0 8px 16px -6px rgba(31,159,214,0.55), inset 0 1px 0 rgba(255,255,255,0.4);
+    color:#ffffff;
+  }
+  .icon svg{ width:22px; height:22px; }
+  h3{
+    font-family:'Fjalla One',sans-serif;
+    font-weight:400;
+    letter-spacing:0.02em;
+    font-size:21px;
+    line-height:1.2;
+    margin:0;
+    color:#0b2430;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  @media (max-width:760px){
+    .choose-doctors-section{ padding:0; }
+    .panel{ padding:6px 16px; }
+    .list-row{ padding:16px 4px; column-gap:12px; }
+    .icon{ width:38px; height:38px; }
+    .icon svg{ width:18px; height:18px; }
+    .wrap{ width:100%; max-width:100%; padding:0; }
+    h3{ font-size:18px; white-space:normal; overflow:visible; text-overflow:clip; }
+    .section-head h2{ font-size:21px; white-space:nowrap; }
+    .section-head h2 .mobile-break{ display:inline; }
+    .section-head{ padding:0; }
+  }
+</style>
+</head>
+<body>
+<section class="choose-doctors-section">
+<div class="wrap">
+  <div class="section-head">
+    <h2>Why Patients Choose Our Doctors?</h2>
+  </div>
+  <div class="panel-bg"><div class="panel">
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M2 9 12 4l10 5-10 5-10-5Z"/>
+          <path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/>
+        </svg>
+      </div>
+      <h3>Experienced &amp; well qualified Doctors</h3>
+    </div>
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <rect x="3" y="4" width="18" height="14" rx="2"/>
+          <path d="M8 21h8M12 18v3"/>
+          <path d="m9 10 2 2 4-4"/>
+        </svg>
+      </div>
+      <h3>Online &amp; In-Clinic Consultations</h3>
+    </div>
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+        </svg>
+      </div>
+      <h3>Patients Across India &amp; Worldwide</h3>
+    </div>
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <rect x="5" y="3" width="14" height="18" rx="2"/>
+          <path d="M9 3h6v3H9zM8 10h8M8 13h8M8 16h5"/>
+        </svg>
+      </div>
+      <h3>Detailed case taking</h3>
+    </div>
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>
+        </svg>
+      </div>
+      <h3>Individualized treatment plans</h3>
+    </div>
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M12 3 4 6v6c0 4.5 3 8 8 9 5-1 8-4.5 8-9V6l-8-3Z"/>
+          <path d="m9 12 2 2 4-4"/>
+        </svg>
+      </div>
+      <h3>Honest and ethical guidance</h3>
+    </div>
+
+    <div class="list-row">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M20.5 8.5c0 5-8.5 10.5-8.5 10.5S3.5 13.5 3.5 8.5a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20.5 8.5Z"/>
+          <path d="M7 12h2l1.5-3 2 6L14 12h3"/>
+        </svg>
+      </div>
+      <h3>Focus on long-term health improvement</h3>
+    </div>
+
+  </div></div>
+</div>
+</section>
+</body>
+</html>
