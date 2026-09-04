@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meet Our Doctors — Kushal Online</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+
+/* ==========================================================================
+   1. CSS VARIABLES (same theme as the doctor profile pages)
+   ========================================================================== */
+:root{
+  --brand:            #12CFFF;
+  --brand-light:      #5CE1FF;
+  --brand-deep:       #049FCB;
+  --brand-deepest:    #027A9E;
+  --ink:              #05303F;
+  --ink-soft:         #9FB4BB;
+  --white:            #FFFFFF;
+
+  --shadow-card:      0 4px 16px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.25);
+  --shadow-icon:      0 8px 20px rgba(18, 207, 255, 0.22);
+
+  --radius-xl:        28px;
+  --radius-md:        16px;
+
+  --ease-premium:     cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-soft:    cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast:         0.22s;
+
+  --font-heading:     'Fjalla One', sans-serif;
+  --font-body:        'Roboto', sans-serif;
+
+  --max-width:        1040px;
+}
+
+/* ==========================================================================
+   2. RESET
+   ========================================================================== */
+.mod-section, .mod-section *, .mod-section *::before, .mod-section *::after{
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+.mod-section{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-body);
+  color: var(--ink-soft);
+  position: relative;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #161616 !important;
+}
+.mod-section a{ text-decoration: none; }
+
+/* ==========================================================================
+   3. TOP FULL-WIDTH PHOTO
+   ========================================================================== */
+.mod-hero{
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+}
+.mod-hero img{
+  width: 100%;
+  height: clamp(300px, 55vw, 620px);
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* ==========================================================================
+   4. CONTAINER (width/margins follow the reference template)
+   ========================================================================== */
+.mod-container{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto !important;
+  padding: calc(clamp(32px, 5vw, 52px) - 8px) 20px 0 !important;
+}
+@media (min-width: 768px){
+  .mod-container{
+    width: 80%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   5. CARD GRID — stacked on mobile, side-by-side on desktop
+   ========================================================================== */
+.mod-grid{
+  display: flex;
+  flex-direction: column;
+  gap: clamp(28px, 4vw, 40px);
+}
+@media (min-width: 768px){
+  .mod-grid{
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .mod-card{
+    flex: 1 1 0;
+  }
+}
+
+/* ==========================================================================
+   6. BLUE CARDS
+   ========================================================================== */
+.mod-card{
+  position: relative;
+  border-radius: var(--radius-xl) !important;
+  background: linear-gradient(160deg, rgba(18, 207, 255, 0.16) 0%, rgba(18, 207, 255, 0.05) 100%) !important;
+  border: 1px solid rgba(18, 207, 255, 0.3) !important;
+  box-shadow: var(--shadow-card) !important;
+  padding: clamp(28px, 3.6vw, 40px) clamp(22px, 2.8vw, 32px) clamp(36px, 4.6vw, 52px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  animation: mod-fade-up 0.7s var(--ease-out-soft) both;
+}
+
+.mod-name{
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: clamp(21px, 16.13px + 1.033vw, 32px);
+  letter-spacing: 0.4px;
+  color: var(--brand);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.mod-bio{
+  font-size: calc(1rem + 3px);
+  line-height: 1.65;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.mod-cta-wrap{
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 24px;
+  margin-top: 20px;
+}
+
+.mod-cta{
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 30px;
+  border-radius: 999px !important;
+  background: var(--brand-light) !important;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  box-shadow: var(--shadow-icon) !important;
+  transition: transform var(--dur-fast) var(--ease-premium),
+              box-shadow var(--dur-fast) var(--ease-premium);
+}
+.mod-cta:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(18, 207, 255, 0.32) !important;
+}
+.mod-cta:focus-visible{
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.mod-title{
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: clamp(19px, 17.42px + 1.221vw, 36px);
+  letter-spacing: 0.4px;
+  color: #12CFFF;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: calc(clamp(28px, 4vw, 44px) - 6px);
+}
+
+/* ==========================================================================
+   7. ANIMATION
+   ========================================================================== */
+@keyframes mod-fade-up{
+  from{ opacity: 0; transform: translateY(18px); }
+  to{ opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce){
+  .mod-card{ animation: none !important; }
+}
+html, body{ margin: 0 !important; padding: 0 !important; }
+</style>
+</head>
+<body>
+
+<section class="mod-section" aria-label="Meet Our Doctors">
+
+  <!-- ===================== TOP FULL-WIDTH PHOTO ===================== -->
+  <div class="mod-hero">
+    <img src="https://api.kushalonline.com/image/meet-our-doctors.jpeg" alt="Meet Our Doctors — Dr Pranav Choudhary and Dr Manika Choudhary">
+  </div>
+
+  <div class="mod-container">
+    <h1 class="mod-title">Expert Care, Led by Our Doctors</h1>
+    <div class="mod-grid">
+
+      <!-- ===================== CARD 1: DR PRANAV ===================== -->
+      <div class="mod-card">
+        <h2 class="mod-name">Dr Pranav Choudhary</h2>
+        <p class="mod-bio">Dr. Pranav has over 25 years of clinical experience in homeopathic practice. He is known for his thoughtful approach, honest guidance, and individualized patient care.</p>
+        <div class="mod-cta-wrap">
+          <a class="mod-cta" href="https://kushalonline.com/our-doctors#98c129f1-cfe8-486e-800e-9114f3bec60b" target="_top">
+            View Doctor&rsquo;s Profile
+          </a>
+        </div>
+      </div>
+
+      <!-- ===================== CARD 2: DR MANIKA ===================== -->
+      <div class="mod-card">
+        <h2 class="mod-name">Dr Manika Choudhary</h2>
+        <p class="mod-bio">Dr. Manika has over 22 years of clinical experience in homeopathic practice. She is known for her compassionate care, attentive listening, and personalized treatment approach.</p>
+        <div class="mod-cta-wrap">
+          <a class="mod-cta" href="https://kushalonline.com/our-doctors#c32c7f90-0cf4-4907-9d7e-2459cd844e94" target="_top">
+            View Doctor&rsquo;s Profile
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
